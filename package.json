@@ -1,0 +1,23 @@
+{
+  "name": "react-hello-world",
+  "version": "1.0.1",
+  "description": "Simple package to learn how to publish react component into NPM",
+  "main": "index.js",
+  "author": "Raja Sekar",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-preset-stage-0": "^6.16.0"
+  },
+
+  "scripts": {
+    "build": "./node_modules/.bin/babel helloworld.js -o index.js",
+    "prepublish": "npm run build"
+  }
+}
