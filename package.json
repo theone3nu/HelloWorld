@@ -1,5 +1,5 @@
 {
-  "name": "react-hello-world",
+  "name": "react-hello-world-test",
   "version": "1.0.1",
   "description": "Simple package to learn how to publish react component into NPM",
   "main": "index.js",
