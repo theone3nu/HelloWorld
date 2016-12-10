@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "Simple package to learn how to publish react component into NPM",
   "main": "index.js",
-  "author": "Raja Sekar",
+  "author": "Thrinethra Siddani",
   "license": "ISC",
   "dependencies": {
     "react": "^15.4.1",
